@@ -1,0 +1,25 @@
+/* common */
+
+
+* {
+    margin:0; padding:0;
+  }
+  header {
+    /* width: 500px; */
+    height: 80px;
+    background-color: #e6e6fa;
+  }
+
+h1#title {
+    font-size: 100px;
+    color: blue;
+    text-align: center
+}
+
+.test_explanation {
+    text-align: center
+}
+
+.start_button {
+    text-align: center
+}
