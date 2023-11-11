@@ -2,8 +2,12 @@
 
 one:
   question: MyString
-  answer: false
+  choiceA: MyString
+  choiceB: MyString
+  answer: MyString
 
 two:
   question: MyString
-  answer: false
+  choiceA: MyString
+  choiceB: MyString
+  answer: MyString

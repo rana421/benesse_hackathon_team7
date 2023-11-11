@@ -1,3 +1,8 @@
 <!-- app/views/results/show.html.erb -->
-<h1>あなたの診断結果:</h1>
-<p><%= @result %></p>
+<h1>診断結果</h1>
+
+<ul>
+  <% @questions_with_answers.each do |qa| %>
+    <li>ID <%= qa[:id] %>: 回答は <%= qa[:answer] %> です。</li>
+  <% end %>
+</ul>

@@ -2,7 +2,9 @@ class CreateQuestions < ActiveRecord::Migration[7.1]
   def change
     create_table :questions do |t|
       t.string :question
-      t.boolean :answer
+      t.string :choiceA
+      t.string :choiceB
+      t.string :answer
 
       t.timestamps
     end

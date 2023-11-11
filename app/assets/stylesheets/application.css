@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+.button-to-form {
+    /* ここにボタンのスタイルを定義 */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.42857;
+    margin: 0;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
