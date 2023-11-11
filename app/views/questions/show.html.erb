@@ -1,0 +1,9 @@
+<!-- app/views/questions/show.html.erb -->
+<h1><%= @question.question %></h1>
+<%= form_with(model: @question, url: question_path(@question), method: :put) do |form| %>
+  <%= form.radio_button :result, true %>
+  <%= form.label :result_true, 'はい' %>
+  <%= form.radio_button :result, false %>
+  <%= form.label :result_false, 'いいえ' %>
+  <%= form.submit "回答を保存" %>
+<% end %>
