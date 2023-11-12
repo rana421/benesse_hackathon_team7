@@ -1,8 +1,4 @@
 <!-- app/views/results/show.html.erb -->
-<header>
-  <h1>診断結果</h1>
-</header>
-
 <main>
   <p>あなたのMBTIは <%= @mbti_string %> です。</p>
 
@@ -21,10 +17,5 @@
   </ol>
 
   <h2>あなたにぴったりの職業はこちら</h2>
-</main>
   <%= link_to "もう一度診断する", root_path %>
-
-<footer>
-  <p><small>&copy; 2023 benesse hackathon team7</p>
-</footer>
-
+</main>

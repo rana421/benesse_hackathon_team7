@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   resources :questions, only: [:show, :update]
   # get 'questions/:id', to: 'questions#show', as: 'question'
+  get 'home' => 'home#index'
   get 'results', to: 'results#show'
+  
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -11,5 +13,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  root "questions#show", id: 1
+  # root "questions#show", id: 1
+  root "home#index"
 end
