@@ -11,6 +11,138 @@
             "INTJの弱みの説明3"
         ]
     },
+    "INTP": {
+        "strengths": [
+            "INTPの強みの説明1",
+            "INTPの強みの説明2",
+            "INTPの強みの説明3"
+        ],
+        "weaknesses": [
+            "INTPの弱みの説明1",
+            "INTPの弱みの説明2",
+            "INTPの弱みの説明3"
+        ]
+    },
+    "INFJ": {
+        "strengths": [
+            "INFJの強みの説明1",
+            "INFJの強みの説明2",
+            "INFJの強みの説明3"
+        ],
+        "weaknesses": [
+            "INFJの弱みの説明1",
+            "INFJの弱みの説明2",
+            "INFJの弱みの説明3"
+        ]
+    },
+    "INFP": {
+        "strengths": [
+            "INFPの強みの説明1",
+            "INFPの強みの説明2",
+            "INFPの強みの説明3"
+        ],
+        "weaknesses": [
+            "INFPの弱みの説明1",
+            "INFPの弱みの説明2",
+            "INFPの弱みの説明3"
+        ]
+    },
+    "ISTJ": {
+        "strengths": [
+            "ISTJの強みの説明1",
+            "ISTJの強みの説明2",
+            "ISTJの強みの説明3"
+        ],
+        "weaknesses": [
+            "ISTJの弱みの説明1",
+            "ISTJの弱みの説明2",
+            "ISTJの弱みの説明3"
+        ]
+    },
+    "ISTP": {
+        "strengths": [
+            "ISTPの強みの説明1",
+            "ISTPの強みの説明2",
+            "ISTPの強みの説明3"
+        ],
+        "weaknesses": [
+            "ISTPの弱みの説明1",
+            "ISTPの弱みの説明2",
+            "ISTPの弱みの説明3"
+        ]
+    },
+    "ISFJ": {
+        "strengths": [
+            "ISFJの強みの説明1",
+            "ISFJの強みの説明2",
+            "ISFJの強みの説明3"
+        ],
+        "weaknesses": [
+            "ISFJの弱みの説明1",
+            "ISFJの弱みの説明2",
+            "ISFJの弱みの説明3"
+        ]
+    },
+    "ISFP": {
+        "strengths": [
+            "ISFPの強みの説明1",
+            "ISFPの強みの説明2",
+            "ISFPの強みの説明3"
+        ],
+        "weaknesses": [
+            "ISFPの弱みの説明1",
+            "ISFPの弱みの説明2",
+            "ISFPの弱みの説明3"
+        ]
+    },
+    "ENTJ": {
+        "strengths": [
+            "ENTJの強みの説明1",
+            "ENTJの強みの説明2",
+            "ENTJの強みの説明3"
+        ],
+        "weaknesses": [
+            "ENTJの弱みの説明1",
+            "ENTJの弱みの説明2",
+            "ENTJの弱みの説明3"
+        ]
+    },
+    "ENTP": {
+        "strengths": [
+            "ENTPの強みの説明1",
+            "ENTPの強みの説明2",
+            "ENTPの強みの説明3"
+        ],
+        "weaknesses": [
+            "ENTPの弱みの説明1",
+            "ENTPの弱みの説明2",
+            "ENTPの弱みの説明3"
+        ]
+    },
+    "ENFJ": {
+        "strengths": [
+            "ENFJの強みの説明1",
+            "ENFJの強みの説明2",
+            "ENFJの強みの説明3"
+        ],
+        "weaknesses": [
+            "ENFJの弱みの説明1",
+            "ENFJの弱みの説明2",
+            "ENFJの弱みの説明3"
+        ]
+    },
+    "ENFP": {
+        "strengths": [
+            "ENFPの強みの説明1",
+            "ENFPの強みの説明2",
+            "ENFPの強みの説明3"
+        ],
+        "weaknesses": [
+            "ENFPの弱みの説明1",
+            "ENFPの弱みの説明2",
+            "ENFPの弱みの説明3"
+        ]
+    },
     "ESTJ": {
         "strengths": [
             "ESTJの強みの説明1",
@@ -21,6 +153,42 @@
             "ESTJの弱みの説明1",
             "ESTJの弱みの説明2",
             "ESTJの弱みの説明3"
+        ]
+    },
+    "ESTP": {
+        "strengths": [
+            "ESTPの強みの説明1",
+            "ESTPの強みの説明2",
+            "ESTPの強みの説明3"
+        ],
+        "weaknesses": [
+            "ESTPの弱みの説明1",
+            "ESTPの弱みの説明2",
+            "ESTPの弱みの説明3"
+        ]
+    },
+    "ESFJ": {
+        "strengths": [
+            "ESFJの強みの説明1",
+            "ESFJの強みの説明2",
+            "ESFJの強みの説明3"
+        ],
+        "weaknesses": [
+            "ESFJの弱みの説明1",
+            "ESFJの弱みの説明2",
+            "ESFJの弱みの説明3"
+        ]
+    },
+    "ESFP": {
+        "strengths": [
+            "ESFPの強みの説明1",
+            "ESFPの強みの説明2",
+            "ESFPの強みの説明3"
+        ],
+        "weaknesses": [
+            "ESFPの弱みの説明1",
+            "ESFPの弱みの説明2",
+            "ESFPの弱みの説明3"
         ]
     }
 }
