@@ -2,8 +2,14 @@
 <main>
     <p><%= @question.question %></>
     <div class="button-to-form">
-        <%= button_to "#{@question.choiceA}", question_path(@question, question: { answer: "A" }), method: :put, form_class: "a-button" %>
-        <%= button_to "#{@question.choiceB}", question_path(@question, question: { answer: "B" }), method: :put, form_class: "b-button" %>
+        <%= button_to "#{@question.choiceA}", question_path(@question, question: { answer: "A" }), method: :put,
+        form_class: "a-button a-button--red a-button--radius a-button--cubic", class: "btn"%>
+
+
+        <%= button_to "#{@question.choiceB}", question_path(@question, question: { answer: "B" }), method: :put,
+        form_class: "b-button b-button--red b-button--radius b-button--cubic", class: "btn"%>
+
+        <%= button_to "戻る", past_question_path(@question), method: :get, form_class: "b-button b-button--red b-button--radius b-button--cubic", class: "btn"%>
     <div>
 </main>
 

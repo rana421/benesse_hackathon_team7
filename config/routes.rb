@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   # get 'questions/:id', to: 'questions#show', as: 'question'
   get 'home' => 'home#index'
   get 'results', to: 'results#show'
-  
+
+  get 'questions/:id/past', to: 'questions#past', as: 'past_question'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

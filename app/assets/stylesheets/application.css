@@ -50,8 +50,7 @@ header {
 }
 
 /* ボタン */
-
-button {
+.btn {
     background-color: transparent;
     border: 2px solid transparent;
     box-shadow: none;
@@ -60,36 +59,67 @@ button {
     justify-content: center;
 }
 
+.a-button, .b-button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+​
 .button-to-form {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-
-.a-button, .b-button {
-    padding: 10px 20px; /* パディングを調整 */
-    border: none; /* ボーダーを削除 */
-    color: white; /* 文字色 */
-    font-size: 1em; /* フォントサイズ */
-    cursor: pointer; /* カーソルを指に */
-    transition: background-color 0.3s; /* 背景色のトランジション */
-}
-
+​
 .a-button {
     background-color: #4CAF50; /* 緑色 */
 }
-
+​
 .a-button:hover {
     background-color: #45a049; /* ホバー時の色 */
 }
+​
+​.a-button--red.a-button--cubic {
+    border-bottom: 5px solid #4CAF50;
+}
 
+.a-button--red.a-button--cubic:hover {
+    margin-top: 3px;
+    border-bottom: 2px solid #45a049;
+}
+
+.a-button--radius {
+    border-radius: 100vh;
+}
+
+​
 .b-button {
     background-color: #f44336; /* 赤色 */
 }
-
+​
 .b-button:hover {
     background-color: #d73833; /* ホバー時の色 */
+}
+​
+.b-button--red.b-button--cubic {
+    border-bottom: 5px solid #f44336;
+}
+
+.b-button--red.b-button--cubic:hover {
+    margin-top: 3px;
+    border-bottom: 2px solid #d73833;
+}
+
+.b-button--radius {
+    border-radius: 100vh;
 }
 /* end */
 
@@ -141,3 +171,11 @@ main li {
     list-style: none;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.flex-footer {
+    margin-top: auto;
+}
