@@ -1,0 +1,101 @@
+/* common */
+​
+body{
+    background-image:url(images/background.png);
+    background-size:contain;
+    margin:0;
+}
+img{
+    vertical-align: bottom;
+}
+​
+​
+.title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size:20px;
+}
+​
+.section{
+    text-align: left;
+    margin:auto 0;
+}
+​
+.fit{
+    margin-top:20px;
+}
+​
+.profession{
+    font-size: 35px;
+    margin-top:70px;
+    margin-bottom:0;
+    text-align:center;
+}
+.comment{
+    font-size:14px;
+    margin-top:0;
+    margin-bottom:40px;
+    text-align:center;
+}
+​
+h3{
+    font-size:30px;
+}
+​
+.main{
+    text-align:left;
+    margin-left:8px;
+}
+​
+.describe{
+    font-family:serif;
+    font-size:15px;
+    margin-top:0;
+    margin-bottom:0;
+}
+​
+.subtitle{
+    font-size:25px;
+    margin-bottom:0;
+    margin-top:30px;
+}
+​
+.headline{
+    padding-top:10px;
+    text-align:center;
+    border-radius:10px;
+    vertical-align:middle;
+    height:55px;
+    background-color: #9b4d42;
+    font-size:25px;
+    margin-left:8px;
+    margin-right:8px;
+}
+​
+.contents{
+    margin-left:8px;
+}
+​
+a:link{
+    color:white;
+    text-decoration:none;
+}
+​
+a:visited{
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+    color:white;
+    text-decoration:none;
+}
+​
+a:active{
+    color:white;
+    text-decoration:none;
+}
+​
+header{
+    height:80px;
+}
