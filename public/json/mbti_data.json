@@ -1,0 +1,26 @@
+{
+    "INTJ": {
+        "strengths": [
+            "INTJの強みの説明1",
+            "INTJの強みの説明2",
+            "INTJの強みの説明3"
+        ],
+        "weaknesses": [
+            "INTJの弱みの説明1",
+            "INTJの弱みの説明2",
+            "INTJの弱みの説明3"
+        ]
+    },
+    "ESTJ": {
+        "strengths": [
+            "ESTJの強みの説明1",
+            "ESTJの強みの説明2",
+            "ESTJの強みの説明3"
+        ],
+        "weaknesses": [
+            "ESTJの弱みの説明1",
+            "ESTJの弱みの説明2",
+            "ESTJの弱みの説明3"
+        ]
+    }
+}

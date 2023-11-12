@@ -4,20 +4,20 @@
 </header>
 
 <main>
-  <p>あなたのMBTIは <%= @mbti_alphabets.join %> です。</p>
+  <p>あなたのMBTIは <%= @mbti_string %> です。</p>
 
   <h2>あなたの強み</h2>
   <ol>
-    <li>創造カ豊かで好奇心旺盛</li>
-    <li>他者の感情に共感しやすい</li>
-    <li>大胆なアイデアを生み出す力がある</li>
+    <% @mbti_features['strengths'].each do |feature| %>
+      <li><%= feature %></li>
+    <% end %>
   </ol>
 
   <h2>あなたの弱み</h2>
   <ol>
-    <li>計画性に乏しい</li>
-    <li>型にはめられるのが嫌い</li>
-    <li>周りの影響を受けやすい</li>
+    <% @mbti_features['weaknesses'].each do |feature| %>
+      <li><%= feature %></li>
+    <% end %>
   </ol>
 
   <h2>あなたにぴったりの職業はこちら</h2>
