@@ -22,7 +22,16 @@ class QuestionsController < ApplicationController
     end
   end
 
+  def past
+    @question = Question.find(params[:id])
 
+    pre_question_id = @question.id - 1
+    if Question.exists?(pre_question_id)
+      redirect_to question_path(pre_question_id)
+    else
+      redirect_to results_path
+    end
+  end
 
   private
   def set_question
