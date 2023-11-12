@@ -22,8 +22,9 @@ class QuestionsController < ApplicationController
     end
   end
 
-  private
 
+
+  private
   def set_question
     @question = Question.find(params[:id])
   end
