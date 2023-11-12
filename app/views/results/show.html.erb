@@ -16,6 +16,11 @@
     <% end %>
   </ol>
 
-  <h2>あなたにぴったりの職業はこちら</h2>
-  <%= link_to "もう一度診断する", root_path %>
+  <h2>あなたにぴったりの職業はこちら↓</h2>
+  <div class="button-to-form">
+    <%= button_to "プログラマー", '/result-job-programmer.html', method: :get, class: 'btn', form_class: "a-button a-button--red a-button--radius ba-button--cubic"%>
+    <%= button_to "営業職", '/result-job-sales.html', method: :get, class: 'btn', form_class: "a-button a-button--red a-button--radius a-button--cubic"%>
+  </div>
+
+  <%= button_to "もう一度診断する", root_path, method: :get%>
 </main>
