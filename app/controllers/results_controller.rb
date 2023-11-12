@@ -1,8 +1,7 @@
 class ResultsController < ApplicationController
   def show
-    # すべての質問とその回答を取得
-    @questions_with_answers = Question.all.map do |question|
-      { id: question.id, answer: question.answer }
+    @mbti_alphabets = Question.all.map do |question|
+      question[:answer] == "A" ? question[:A_alphabet] : question[:B_alphabet]
     end
   end
 end

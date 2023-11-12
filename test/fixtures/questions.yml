@@ -5,9 +5,13 @@ one:
   choiceA: MyString
   choiceB: MyString
   answer: MyString
+  A_alphabet: MyString
+  B_alphabet: MyString
 
 two:
   question: MyString
   choiceA: MyString
   choiceB: MyString
   answer: MyString
+  A_alphabet: MyString
+  B_alphabet: MyString
