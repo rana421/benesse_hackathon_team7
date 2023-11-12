@@ -1,20 +1,55 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+* vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any other CSS
+* files in this directory. Styles in this file should be added after the last require_* statement.
+* It is generally better to create a new file per style scope.
+*
+*= require_tree .
+*= require_self
+*/
 
- /* ボタン */
+/* home */
+.first-block {
+    background-image: url("./assets/top.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #c3c3c7;
+    padding: 10px;
+}
+
+.headline {
+    margin: 0;
+    font-size: 1.0em;
+}
+
+.start_button {
+    display: block;
+    margin: 20px auto; /* ボタンを中央に寄せる */
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #c3c3c7; /* ボタンの背景色 */
+    color: #fff; /* ボタンのテキスト色 */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ボタン */
 
 button {
     background-color: transparent;
@@ -76,8 +111,8 @@ footer {
     background-color: #808080;
 
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 }
 
 small {
